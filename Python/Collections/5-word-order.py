@@ -9,4 +9,5 @@ for _ in range(int(raw_input())):
     else:
         words[key] = 1
 
+print len(Counter(words).keys())    #to count the number of distinct words from the input. 
 print ' '.join(map(str, words.values()))
